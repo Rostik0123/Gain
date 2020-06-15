@@ -1,3 +1,5 @@
+/*------------------Background--------------------------*/
+
 .background{
   position: absolute;
   width: 100vw;  /* 1440px */
@@ -17,6 +19,8 @@
   background: rgba(0, 0, 0, 0.30);
 }
 
+/*-------------------header-------------------------*/
+
 .block-menu{
   position: absolute;
   width: 100vw;     /* 1440px */
@@ -29,6 +33,7 @@
 
 .logo{
   position: absolute;
+  user-select: none;
   width: 4.5139vw;   /* 65/1440 */
   height: 8.3023vh; /* 67/73 */
   left: 0.34722vw;   /* 5/1440 */
@@ -39,6 +44,7 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
+  user-select: none;
   font-size: 5vh;   /* 31.5/16 */
   line-height: 5vh; /*  36.9/16 */
   color: #FFFFFF;
@@ -67,6 +73,64 @@
   width: 17.625vw;  /* 253.8/1440 */
   left: 66.5vw;     /* 909/1440 */
 }
+
+.dropbtn{
+  position: absolute;
+  width: 3.33vw;  /* 48/1440 */
+  height: 7.31vh;  /* 59/807 */
+  left: 93.5vw;  /* 1360/1440 */
+  top: 0.8vh;  /* 7/807 */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6.2vh;  /* 50/807 */
+  line-height: 7.31vh;  /* 59/807 */
+  color: #EEEEEE;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown{
+  user-select: none;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 12vw;  /* 222/1440 */
+  height: 10vh;  /* 92/807 */
+  left: 84.58vw;  /* 1218/1440 */
+  top: 9vh;     /* 73/807 */
+  background: rgba(255, 255, 255, 0.1);
+  text-align: right;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.72vh;  /* 30/807 */
+  line-height: 4.34vh;  /* 35/807 */
+  height: 4.34vh;  /* 35/807 */
+}
+
+.support{
+  width: 11.6vw;  /* 160/1440 */
+}
+
+.about{
+  width: 11.6vw;  /* 78/1440 */
+}
+
+.show {
+  display:block;
+}
+
+/*-----------Footer---------------------------*/
 
 .block-footer{
   position: absolute;
@@ -105,6 +169,8 @@
   color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }
+
+/*----------------News-week----------------*/
 
 .h1-news-week{
   position: absolute;
@@ -156,6 +222,8 @@
   color: #EEEEEE;
 }
 
+/*------------Red-lines-------------*/
+
 .home-line{
   position: absolute;
   left: 7.0625vw;
@@ -194,4 +262,46 @@
   bottom: 92.57vh;
   background: #A30000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*-----------Support--------------------*/
+
+.back-sup{
+  position: absolute;
+  width: 100vw; /* 1440 */
+  height: 7vh; /* 57/807 */
+  left: 0vw;  /* 0 */
+  top: 9vh;  /* 73/807 */
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.h1-sup{
+  position: absolute;
+  width: 13.2vw;  /* 190/1440 */
+  height: 5.08vh;  /* 41/807 */
+  left: 43.4vw;  /* 625/1440 */
+  top: 9.05vh;  /* 73/807 */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.34vh;  /* 35/807 */
+  line-height: 5.08vh;  /* 41/807 */
+  text-align: center;
+  color: #FFFFFF;
+  user-select: none;
+}
+
+.text-sup{
+  position: absolute;
+  width: 63.68vw;  /* 917/1440 */
+  height: 20.32vh;  /* 164/807 */
+  left: 4.86vw;  /* 70/1440 */
+  top: 63.94vh;  /* 516/807 */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.34vh;  /* 35/807 */
+  line-height: 5.08vh;  /* 41/807 */
+  color: #EEEEEE;
+  text-decoration: none;
 }
