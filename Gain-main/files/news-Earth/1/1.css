@@ -1,0 +1,15 @@
+.p-1{
+  position: absolute;
+  width: 764px;
+  height: 259px;
+  left: 555px;
+  top: 192px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  color: #EEEEEE;
+}
